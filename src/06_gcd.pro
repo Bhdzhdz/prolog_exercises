@@ -4,3 +4,7 @@ gcd(X, Y, Z):-
     abs(Y) > 0,!,
     X1 is X mod Y,
     gcd(Y, X1, Z).
+
+maxcd(X,Y,Z):-
+    gcd(X,Y,Z).
+
