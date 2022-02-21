@@ -33,7 +33,7 @@ Se utiliza el interprete [**SWI-Prolog**](https://www.swi-prolog.org/).
     abuelo(A,N).
     ```
 
-5.  Escribe, con y sin cortes, el procedimiento “separa”, que divide una lista en dos sublistas, la primera con los números positivos, y la segunda con los números negativos.Hacer un predicado que inserte un elemento al final de una lista
+5.  Escribe, con y sin cortes, el procedimiento “separa”, que divide una lista en dos sublistas, la primera con los números positivos, y la segunda con los números negativos.
   
     ```prolog
     separa(L,L1,L2).
