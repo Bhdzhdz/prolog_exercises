@@ -69,3 +69,33 @@ Se utiliza el interprete [**SWI-Prolog**](https://www.swi-prolog.org/).
     ```prolog
     longitud(L,X).
     ```
+
+11. Hacer un programa usando listas que sume los elementos de las 2 listas de números enteros dejando el resultado en otra lista
+    
+    ```prolog
+    suma_elem(L1, L2, SL).
+    ```
+
+12. Hacer un predicado usando listas que regrese el último elemento de una lista
+    
+    ```prolog
+    ultimo_elem(L, X). 
+    ```
+
+13. Usando listas, programar con un predicado el algoritmo de QuickSort
+
+    ```prolog
+    quicksort(L, SL).
+    ```
+
+14. Hacer un predicado usando cortes para la función de Fibonacci
+    
+    ```prolog
+    fibonacci(N, F).
+    ```
+
+15. Hacer un predicado para eliminar los N primeros elementos de una lista y regresar el resto
+
+    ```prolog
+    sac_n_pri(L,N,R). 
+    ```
