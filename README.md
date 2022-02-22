@@ -8,18 +8,26 @@ Se utiliza el interprete [**SWI-Prolog**](https://www.swi-prolog.org/).
 
 1. Corregir el siguiente programa para que valide si recibe un número negativo
 
+    `src/01_factorial.pro`
+
     ```prolog
     factorial(0,1):-!.
-    factorial(1,1):-!.
-    factorial(N,R):-N1 is N-1,!, 
-            factorial(N1,R1), R is N*R1.
+    factorial(N,R):-
+        N>0,!,
+        N1 is N-1, 
+        factorial(N1,R1), 
+        R is N*R1.
     ```
+
+    ![Ejercicio 1, Factorial](./images/01_factorial.png)
 
 2. Hacer un predicado que inserte un elemento al final de una lista
    
     ```prolog
-    inserta(X,L).
+    insert(X,L).
     ```
+
+    ![Ejercicio 2, Insertar](./images/02_insert.png)
 
 3. Hacer un predicado que encuentre a todos los antepasados de una persona: tu papá, tu mamá y los padres de ellos son tus antepasados y todos los que le sigan en el árbol
 
