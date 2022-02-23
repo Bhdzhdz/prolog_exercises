@@ -51,7 +51,7 @@ Se utiliza el interprete [**SWI-Prolog**](https://www.swi-prolog.org/).
     father_of(daniel, alan).
     ```
 
-    ![Ejercicio 3, Ancestros](./images/03_ancestors.png)
+    ![Ejercicio 3, Ancestros](./images/03_ancestor.png)
 
 4. Hacer un predicado abuelo considerando tanto el de mamá como el de papá
 
